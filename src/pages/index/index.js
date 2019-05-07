@@ -1,6 +1,7 @@
 import Taro, {Component} from '@tarojs/taro'
 import {View} from '@tarojs/components'
 import pageInit from '../../utils/pageInit'
+import { getData } from '../../api/common.js'
 
 import './index.less'
 
@@ -21,7 +22,13 @@ class Index extends Component {
 	}
 
     componentDidMount(){
-		//接口请求
+      console.log('哈哈哈哈')
+    //接口请求
+      getData({
+        pageSize: 6,
+        currPage: 1,
+        flag:'sub'
+      })
     }
 
     render() {

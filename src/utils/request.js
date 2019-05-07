@@ -23,7 +23,8 @@ async function request (url, data = {}, method = "POST"){
 
 	//请求
 	let res = await Taro.request({
-		url: `${state.app.baseURL}${url}`,
+    //url: `${state.app.baseURL}${url}`,
+    url: `${url}`,
 		data,
 		header,
 		method

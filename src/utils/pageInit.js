@@ -16,7 +16,8 @@ function pageInit() {
 
 			//阻塞 didMount ， 鉴权
 			async componentDidMount() {
-				let result = await auth.appCheckAuth();
+        //let result = await auth.appCheckAuth();
+        let result = '111'
 				//授权成功
 				if( result ){
 					//调用父组件的函数

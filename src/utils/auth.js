@@ -1,5 +1,5 @@
 import Taro from '@tarojs/taro'
-import { insertToken , changeAppOnLaunch } from '../actions/app'
+import { insertToken , changeAppOnLaunch } from '../actions/auth'
 //获取数据
 export default class Auth {
 	//app授权

@@ -1,8 +1,8 @@
-import * as constants from '../constants/app'
+import * as constants from '../constants/auth'
 
 const INITIAL_STATE ={
 	//请求接口
-	baseURL : 'https://xxx.xxxx.xxx/' ,
+	baseURL : 'http://wxzp.newone.com.cn/' ,
 	//应用首次加载
 	appOnLaunch : true ,
 	//请求token
